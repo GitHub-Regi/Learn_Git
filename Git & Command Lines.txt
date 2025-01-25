@@ -35,5 +35,5 @@ git branch [branche]
 git branch -m
 git branch -d [branche]
 git merge [branche]
-
-git test
+git diff
+git diff [branche] [branche]
