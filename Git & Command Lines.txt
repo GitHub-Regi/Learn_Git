@@ -1,0 +1,37 @@
+cd [nom]
+cd ..
+dir
+mkdir [nom]
+cls
+
+git --version
+git config user.name
+git config --global user.name ["nom"]
+git config user.email
+git config --global user.email ["nom"]
+
+git init
+git status
+git log (Enter et Q)
+git clone [url]
+git clone [https://[token]@url]
+git add [fichier]
+git add .
+git commit
+git commit -m
+git remote -v
+git remote add origin [url]
+git remote remove origin
+git branch -M main
+git push -u origin main
+git fetch
+git fetch origin main
+git checkout origin/main
+git switch
+git switch main
+git pull
+git branch
+git branch [branche]
+git branch -m
+git branch -d [branche]
+git merge [branche]
