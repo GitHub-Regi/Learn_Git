@@ -13,6 +13,7 @@ git config --global user.email ["nom"]
 git init
 git status
 git log (Enter et Q)
+git log --oneline
 git clone [url]
 git clone [https://[token]@url]
 git add [fichier]
@@ -26,6 +27,7 @@ git branch -M main
 git push -u origin main
 git fetch
 git fetch origin main
+git checkout [hash]
 git checkout origin/main
 git switch
 git switch main
@@ -37,3 +39,9 @@ git branch -d [branche]
 git merge [branche]
 git diff
 git diff [branche] [branche]
+git restore [fichier]
+git restore --source HEAD~<nombre> [fichier]
+git restore --staged [fichier]
+git reset [hash]
+git reset [hash] --hard
+git revert [hash]
