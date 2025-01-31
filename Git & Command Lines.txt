@@ -22,7 +22,7 @@ git commit
 git commit -m
 git remote -v
 git remote add origin [url]
-git remote remove origin
+git remote rm origin
 git branch -M main
 git push -u origin main
 git fetch
@@ -45,3 +45,6 @@ git restore --staged [fichier]
 git reset [hash]
 git reset [hash] --hard
 git revert [hash]
+git stash
+git stash pop
+git stash apply
